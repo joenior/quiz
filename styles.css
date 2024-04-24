@@ -1,0 +1,157 @@
+input[type="radio"]:checked {
+  background-color: #d8ac33;
+  border-color: antiquewhite;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  background-color: #283444;
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%233b5267' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23596066' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23736f65' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%238d7d63' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23a58d60' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23be9c5d' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23D6AC58' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover; */
+  font-family: "Myriad Pro Bold", sans-serif;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+body,
+html,
+.App,
+.vertical-center {
+  width: 100%;
+  height: 100%;
+  font-family: "Myriad Pro", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.btn-outline-primary {
+  border-color: #1833ff;
+  color: #1833ff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1833ff;
+  color: #ffffff;
+}
+
+.vertical-center {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inner-block {
+  margin: auto;
+  transition: all 0.3s;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  
+  box-sizing: border-box;
+}
+
+
+
+.card {
+  border-radius: 20px;
+}
+
+.btn-outline-warning {
+  border-radius: 15px;
+}
+
+.vertical-center .form-control:focus {
+  border-color: #2554ff;
+}
+
+.vertical-center h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.h3 {
+  font-weight: bold;
+}
+
+.fade-in {
+  animation: fadeInAnimation 1s ease-in forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.logo {
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.card-custom {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(211, 163, 0);
+}
+
+.alert-custom {
+border-color: #1A222D;
+    background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(211, 163, 0);
+  border-radius: 20px;
+}
+
+.img-background {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.btn {
+  border-radius: 40px;
+}
+
+.modal-custom {
+  color: blue;
+
+}
